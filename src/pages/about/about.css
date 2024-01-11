@@ -62,7 +62,10 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
+    header {
+        overflow: hidden;
+    }
     .about__section-image {
         width: 80%;
         margin-inline: auto;

@@ -1,5 +1,5 @@
 .main__header {
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 3rem);
     display: grid;
     place-items: center;
@@ -308,8 +308,11 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .main__header {
+        width: 100%;
         height: fit-content;
         padding: 12rem 0;
+        margin:none;
+        overflow: hidden;
     }
 
     .main__header-container {
@@ -348,6 +351,7 @@ footer {
         margin-top: 0;
         padding: 12rem 0 0;
         height: 100vh;
+        overflow: hidden;
     }
 
     .main__header-center-image {

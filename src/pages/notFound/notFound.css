@@ -1,3 +1,7 @@
+section {
+    color:var(--color-darkgrey);
+}
+
 .notfound__container {
     text-align: center;
     padding-top: 8rem;

@@ -6,26 +6,23 @@
     text-transform: capitalize;
 }
 
-.platinum {
+.sponsors {
     margin-top:2rem;
 }
 
-.platinum__container {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.gold__container {
+.sponsors__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.platinum__container article, .gold__container article {
+.sponsors__container article {
     border: 1rem solid transparent;
     transition: var(--transition);
 }
 
-.platinum__container article:hover, .gold__container article:hover {
+.sponsors__container article:hover {
     border-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 @media screen and (max-width: 1024px) {

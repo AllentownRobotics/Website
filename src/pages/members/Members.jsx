@@ -2,10 +2,9 @@ import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import {bios} from '../../data'
 import Member from '../../components/Member'
-import {SlDocs} from 'react-icons/sl'
 import Footer from '../../components/Footer'
 
-import './bios.css'
+import './members.css'
 
 const Bios = () => {
   return (

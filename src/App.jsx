@@ -5,7 +5,7 @@ import About from './pages/about/About'
 import Robots from './pages/robots/robots'
 import Resources from './pages/resources/Resources'
 import Sponsors from './pages/sponsors/Sponsors'
-import Bios from './pages/bios/Bios'
+import Members from './pages/members/Members'
 import Media from './pages/media/Media'
 import Blogs from './pages/Blogs/Blogs'
 import Blog from './pages/Blog'
@@ -24,7 +24,7 @@ const App = () => {
         <Route path='media' element={<Media/>}/>
         <Route path='resources' element={<Resources/>}/>
         <Route path='sponsors' element={<Sponsors/>}/>
-        <Route path='bios' element={<Bios/>}/>
+        <Route path='members' element={<Members/>}/>
         <Route path='blackbird' element={<Blackbird/>}/>
         <Route path='blogs' element={<Blogs/>}/>
         <Route path='/blog/:id' component={Blog} />
