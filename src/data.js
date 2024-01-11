@@ -31,12 +31,6 @@ export const links = [
         name: "Sponsors",
         path: "/sponsors"
     },
-
-    {
-        name: "Bios",
-        path: "/bios"
-
-    },
     
 ]
 

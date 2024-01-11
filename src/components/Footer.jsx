@@ -29,13 +29,12 @@ const Footer = () => {
                 <Link to="/robots">Robots</Link>
                 <Link to="/resources">Resources</Link>
                 <Link to="/sponsors">Sponsors</Link>
-                <Link to="/bios">Bios</Link>
             </article>
             <article>
                 <h4>Resources</h4>
                 <a href="https://www.firstinspires.org/robotics/frc" target="blank">FIRST Robotics Competition</a>
                 <a href="https://ahs.ufrsd.net" target="blank">Allentown High School</a>
-                <Link to="/blogs">Our Blog</Link>
+                <Link to="/notfound">Our Blog</Link>
             </article>    
         </div><div className="footer__copyright">
                 <small>FRC 1807 | Allentown High School Allentown, NJ</small>

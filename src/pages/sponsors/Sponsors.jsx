@@ -4,7 +4,7 @@ import HeaderImage from '../../images/teampicture.jpg'
 import './sponsors.css'
 
 const Media = () => {
-    const sponsorGalleryLength = 9;
+    const sponsorGalleryLength = 8;
     const sponsors = []
 
     for(let i = 1; i <= sponsorGalleryLength; i++) {

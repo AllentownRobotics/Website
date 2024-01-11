@@ -1,8 +1,9 @@
 section {
-    color:var(--color-darkgrey);
+    background-color:var(--color-darkgrey);
 }
 
 .notfound__container {
+    margin-top: 0;
     text-align: center;
     padding-top: 8rem;
 }
