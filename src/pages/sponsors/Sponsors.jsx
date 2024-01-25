@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
+import Footer from '../../components/Footer'
 
 import './sponsors.css'
 
@@ -27,7 +28,8 @@ const Media = () => {
                     })
                 }
             </div>
-        </section>
+        </section> 
+        <Footer/>
         </>
     )
 }

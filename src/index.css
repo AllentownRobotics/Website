@@ -9,6 +9,13 @@
 
 }
 
+@font-face {
+    font-family: 'russoone-regular';
+    src: url('/src/fonts/RussoOne-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
