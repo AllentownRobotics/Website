@@ -31,6 +31,11 @@ export const links = [
         name: "Sponsors",
         path: "/sponsors"
     },
+
+    {
+        name: "Event",
+        path: "/event"
+    },
     
 ]
 
@@ -50,19 +55,51 @@ export const pagesdirect = [
         info: "Check out the different robots we've made",
         path: "/robots"
     },
+    // {
+    //     id: 2,
+    //     icon: <FaRobot/>,
+    //     title: "Blogs",
+    //     info: "Keep up with our team news throughout the season",
+    //     path: "*"
+    // },
     {
         id: 2,
         icon: <FaRobot/>,
-        title: "Blogs",
-        info: "Keep up with our team news throughout the season",
-        path: "*"
+        title: "Event",
+        info: "Check out details about the Week 2 event hosted by Team 1807",
+        path: "/event"
+    },
+
+    {
+        id: 3,
+        icon: <FaRobot/>,
+        title: "Resources",
+        info: "Check out our resources page for information",
+        path: "/bios"
+    },
+]
+
+export const pagesdirectevent = [
+    {
+        id: 1,
+        icon: <FaRobot/>,
+        title:  "Schedule",
+        info: "Check out the schedule for all competition days",
+        url: "/schedule.pdf"
+    },
+    {
+        id: 2,
+        icon: <FaRobot/>,
+        title: "Volunteer",
+        info: "Sign up to volunteer for our District Event",
+        url: "*"
     },
     {
         id: 3,
         icon: <FaRobot/>,
-        title: "Members",
-        info: "Check out our team and mentors of 1807 and 1812.",
-        path: "/bios"
+        title: "Information Packet",
+        info: "Please read our regulations below",
+        url: "/resources"
     },
 ]
 
@@ -87,142 +124,6 @@ export const faqs = [
         question: "How long is the prep time between each competition",
         answer: "Between 1-2 weeks"
     },
-]
-
-export const quotes = [
-    {
-        id: 1,
-        name: "Robert Tackett",
-        quote: "Robotics is the best activity for kids that want to go pro because every kid has a chance to do it.",
-        job: "Teacher Advisor",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 2,
-        name: "Matthew Jasaitis",
-        quote: "Work smarter, work harder.",
-        job: "Teacher Advisor",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 3,
-        name: "Gabriella Biello",
-        quote: "1807 is an environment that fosters education and inspiration. We work hard to create incredible robots but also an incredible family that I am so proud to be a part of.",
-        job: "Business Captain",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 4,
-        name: "Sydney Miller",
-        quote: "Although robotics is a lot of work and many hours, it's worth every second.",
-        job: "Build Captain",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 5,
-        name: "Arya Chaudry",
-        quote: "Can you come up with something inspirational and say it's me?",
-        job: "Programming Captain",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 6,
-        name: "Evan Kaba",
-        quote: "",
-        job: "Design Captain",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 7,
-        name: "Michael Sacca",
-        quote: "Keep moving forward!",
-        job: "Electrical Captain",
-        avatar: require("./images/logo.png"),
-    },
-    {
-        id: 8,
-        name: "Vanisha Nagali",
-        quote: "Machine does the work, I just stand there.",
-        job: "Machining Captain",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 9,
-        name: "Nicholas Marques",
-        quote: "Its a great learning enviroment to work in, you learn new stuff everyday and everyone is so supportive to each other.",
-        job: "Build Lead",
-        avatar: require("./images/logo.png")
-        },
-    {
-        id: 10,
-        name: "Julia Valentino",
-        quote: "Learning and growing with people that have essentially become my second family and exploring the world of mechanical engineering with 1807 has been amazing",
-        job: "Build Lead",
-        avatar: require("./images/logo.png")
-    },
-    {
-        id: 11,
-        name: "Olivia Pusczko",
-        quote: "NIGHTMARE NIGHTMARE NIGHTMARE",
-        job: "Build Lead",
-        avatar: require("./images/logo.png")
-    },
-        {
-            id: 12,
-            name: "Abhinav Murthy",
-            quote: ".",
-            job: "Build Lead",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 13,
-            name: "Andrew Sain",
-            quote: "It's a lot of work but its a lot of fun.",
-            job: "Design Lead A",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 14,
-            name: "Gavin Elwell",
-            quote: "Postponed.",
-            job: "Design Lead A",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 15,
-            name: "Radhika Manvar",
-            quote: "Idk",
-            job: "Design Lead A",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 16,
-            name: "Tia Bajaj",
-            quote: "Idk",
-            job: "Design Lead B",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 17,
-            name: "Ryan Horn",
-            quote: "Idk",
-            job: "Design Lead B",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 18,
-            name: "Jacob Roohr",
-            quote: "Everything works in the CAD.",
-            job: "Design Lead B",
-            avatar: require("./images/logo.png")
-        },
-        {
-            id: 19,
-            name: "Drew Springer Heller",
-            quote: "I'll get back to you with that",
-            job: "Programming Lead",
-            avatar: require("./images/logo.png")
-        }
 ]
 
 const cover1 = require('./images/main__header.jpeg')
@@ -317,88 +218,6 @@ export const blogList = [
       cover: cover1,
     },
   ];
-  
-
-export const sponsors = [
-    {
-        id: 1,
-        name: 'Aluminum Sponsor',
-        desc: 'This package is perfect for beginners who need constant help',
-        price: 100,
-        features: [
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true}
-        ]
-    },
-    {
-        id: 2,
-        name: 'Bronze Sponsor',
-        desc: 'This is the perfect package for beginners who know what their doing',
-        price: 500,
-        features: [
-            {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 3,
-        name: 'Silver Sponsor',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 1000,
-        features: [
-            {feature: 'Your name displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 4,
-        name: 'Gold Sponsor',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 2000,
-        features: [
-            {feature: 'Your logo displayed on the sponsor page of the website (with link) and our Sponsors page', available: true},
-            {feature: 'Your logo on team shirts worn at competitions', available: true},
-            {feature: 'Your logo on the team banner displayed at competitions', available: true},
-            {feature: 'Invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 5,
-        name: 'Diamond Sponsor',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 5000,
-        features: [
-            {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
-            {feature: 'A medium-sized print of your logo on team shirts worn at competitions', available: true},
-            {feature: 'Your logo on the banner and displayed in our pits (stations at competitions)', available: true},
-            {feature: 'VIP invitation to our Sponsor Night', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    },
-    {
-        id: 6,
-        name: 'Platinum Sponsor',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 10000,
-        features: [
-            {feature: 'Your logo displayed on the homepage of the website (with link) and our Sponsors page', available: true},
-            {feature: 'A large print of your logo on team shirts worn at competitions', available: true},
-            {feature: 'Your logo on the banner, robot and displayed in our pits (stations at competitions)', available: true},
-            {feature: 'Presentation and demonstration of robot at your company or at choice event', available: true},
-            {feature: 'VIP invitation to our Sponsor Night', available: true},
-            {feature: 'Your information on all of our social media outlets and presentations', available: true},
-            {feature: 'Thank-you letter and team picture', available: true},
-            {feature: '2023 Sponsor Plaque', available: true}
-        ]
-    }
-]
 
 const Robot2011 = require('./images/robots/robot11.JPG')
 const Robot2012 = require('./images/robots/robot12.JPG')
@@ -411,23 +230,23 @@ const Robot2021 = require('./images/robots/robot21.jpg')
 export const robots = [
     {
         id: 1,
-        image: Robot2011,
-        game: 'Logomotion',
-        year: '2010-11',
-        docs: ['https://github.com/AllentownRobotics']
+        image: Robot2021,
+        game: 'Rapid React',
+        year: '2021-22',
+        docs: ['https://github.com/AllentownRobotics/2022-1807-RobotCode']
     },
     {
         id: 2,
-        image: Robot2012,
-        game: 'Rebound Rumble',
-        year: '2011-12',
+        image: Robot2020,
+        game: 'Infinite Recharge',
+        year: '2020-21',
         docs: ['https://github.com/AllentownRobotics']
     },
     {
         id: 3,
-        image: Robot2013,
-        game: 'Ultimate Ascent',
-        year: '2012-13',
+        image: Robot2019,
+        game: 'Destination: Deep Space',
+        year: '2018-19',
         docs: ['https://github.com/AllentownRobotics']
     },
     {
@@ -439,24 +258,24 @@ export const robots = [
     },
     {
         id: 5,
-        image: Robot2019,
-        game: 'Destination: Deep Space',
-        year: '2018-19',
+        image: Robot2013,
+        game: 'Ultimate Ascent',
+        year: '2012-13',
         docs: ['https://github.com/AllentownRobotics']
     },
     {
         id: 6,
-        image: Robot2020,
-        game: 'Infinite Recharge',
-        year: '2020-21',
+        image: Robot2012,
+        game: 'Rebound Rumble',
+        year: '2011-12',
         docs: ['https://github.com/AllentownRobotics']
     },
     {
         id: 7,
-        image: Robot2021,
-        game: 'Rapid React',
-        year: '2021-22',
-        docs: ['https://github.com/AllentownRobotics/2022-1807-RobotCode']
+        image: Robot2011,
+        game: 'Logomotion',
+        year: '2010-11',
+        docs: ['https://github.com/AllentownRobotics']
     },
 ]
 

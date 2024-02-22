@@ -26,9 +26,11 @@ const Footer = () => {
             <article>
                 <h4>Permalinks</h4>
                 <Link to="/about">About</Link>
+                <Link to="/media">Media</Link>
                 <Link to="/robots">Robots</Link>
                 <Link to="/resources">Resources</Link>
                 <Link to="/sponsors">Sponsors</Link>
+                <Link to="/event">Event</Link>
             </article>
             <article>
                 <h4>Resources</h4>

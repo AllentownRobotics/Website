@@ -58,7 +58,7 @@
     height: 50px;
     line-height: 50px;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3vw;
     text-transform: uppercase;
     overflow: hidden;
 }
@@ -319,6 +319,7 @@ footer {
 
     .main__header-container {
         gap: 0;
+        align-items: center;
     }
 
     .main__header-circle {
@@ -330,6 +331,11 @@ footer {
         width: 20rem;
         height: 20rem;
     }
+
+    /* .main__header-center {
+        margin-right: 50%;
+        margin-left: 25%;
+    } */
 
     .programs__wrapper {
         grid-template-columns: 1fr 1fr;
@@ -364,6 +370,10 @@ footer {
         grid-template-columns: 1fr;
         margin-left: 1rem;
     }
+/* 
+    .outer-heading {
+        margin: 0 auto;
+    } */
 
     .pages__wrapper {
         grid-template-columns: 1fr;
