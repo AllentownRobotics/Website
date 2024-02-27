@@ -97,7 +97,7 @@
 .pagesdirect {
     margin-top: 4rem;
     background:var(--color-darkgrey);
-    font-family: russoone-regular;
+    font-family: 'Russo One', sans-serif, monospace;
 }
 
 .pages__wrapper {

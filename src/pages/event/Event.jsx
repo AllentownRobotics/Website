@@ -13,7 +13,7 @@ const Event = () => {
   return (
     <>
     <Header title="Event" image={HeaderImage}>
-      Scroll down to read about our history and how we built our team from the start.
+      Scroll down to for information on our district event being held at Allentown High School
     </Header>
     <section className="event__summary">
         <div className="container event__teams-container">
@@ -71,19 +71,19 @@ const Event = () => {
                   <span><FaRobot/></span>
                   <h4>Schedule</h4>
                   <small>Check out the schedule for all competition days</small>
-                  <a href="https://www.firstinspires.org/sites/default/files/uploads/frc/2024-events/2024_NJALL_Agenda.pdf" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
+                  <a href="https://www.firstinspires.org/sites/default/files/uploads/frc/2024-events/2024_NJALL_Agenda.pdf" target="_blank" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
                 </Card>
                 <Card className="pages__page" key="1">
                   <span><FaRobot/></span>
                   <h4>Volunteer</h4>
                   <small>Sign up to volunteer for our District Event</small>
-                  <a href="https://www.canva.com/design/DAF8DOWR5kI/lUihT8B-X330oW9JmaKxkA/view?utm_content=DAF8DOWR5kI&utm_campaign=designshare&utm_medium=link&utm_source=editor" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
+                  <a href="https://www.canva.com/design/DAF8DOWR5kI/lUihT8B-X330oW9JmaKxkA/view?utm_content=DAF8DOWR5kI&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
                 </Card>
                 <Card className="pages__page" key="1">
                   <span><FaRobot/></span>
                   <h4>Information Packet</h4>
                   <small>Please read our regulations below</small>
-                  <a href="https://www.canva.com/design/DAF8DOWR5kI/lUihT8B-X330oW9JmaKxkA/view?utm_content=DAF8DOWR5kI&utm_campaign=designshare&utm_medium=link&utm_source=editor"rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
+                  <a href="https://www.canva.com/design/DAF8DOWR5kI/lUihT8B-X330oW9JmaKxkA/view?utm_content=DAF8DOWR5kI&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
                 </Card>
           </div>
         </div>

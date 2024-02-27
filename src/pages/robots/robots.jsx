@@ -1,9 +1,18 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
-import {robots} from '../../data'
-import Robot from '../../components/Robot'
 import Footer from '../../components/Footer'
 import {GrGithub} from 'react-icons/gr'
+import Card from '../../UI/Card'
+
+import Robot2011 from '../../images/robots/robot11.JPG';
+import Robot2012 from '../../images/robots/robot12.JPG';
+import Robot2013 from '../../images/robots/robot13.JPG';
+import Robot2018 from '../../images/robots/robot18.JPG';
+import Robot2019 from '../../images/robots/robot19.JPG';
+import Robot2021 from '../../images/robots/robot20.JPG';
+import Robot2022 from '../../images/robots/robot21.jpg';
+import Robot2023 from '../../images/robots/robot23.jpg';
+
 import './robots.css'
 
 const Robots = () => {
@@ -14,15 +23,67 @@ const Robots = () => {
     </Header>
     <section className="robots">
       <div className="container robots__container">
-        {
-          robots.map(({id, image, game, year, docs}) => {
-          return <Robot key={id} image={image} game={game} year={year} docs={
-            [
-              {icon: <GrGithub/>, link: docs[0]},
-            ]
-          } />
-          })
-        }
+      <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2021} alt="Rapid React" />
+        </div>
+        <h3>Crescendo</h3>
+        <h4>2023-24</h4>
+        <div className="robots_docs">
+          <a key="1" href="" rel='noreferrer noopener'><GrGithub/> </a>
+        </div>
+    </Card>
+      <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2023} alt="Charged Up" />
+        </div>
+        <h3>Charged Up</h3>
+        <h4>2022-23</h4>
+        <div className="robots_docs">
+          <a key="2" href="https://github.com/AllentownRobotics/2023-1807-RobotCode" rel='noreferrer noopener'><GrGithub/> </a>
+        </div>
+    </Card>
+    <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2019} alt="Rapid React" />
+        </div>
+        <h3>Rapid React</h3>
+        <h4>2021-22</h4>
+        <div className="robots_docs">
+          <a key="3" href="https://github.com/AllentownRobotics/2022-1807-RobotCode" rel='noreferrer noopener'><GrGithub/> </a>
+        </div>
+    </Card>
+    <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2018} alt="Rapid React" />
+        </div>
+        <h3>Infinite Recharge</h3>
+        <h4>2020-21</h4>
+        <div className="robots_docs">
+          <a key="4" href="https://github.com/AllentownRobotics/2022-1807-RobotCode" rel='noreferrer noopener'><GrGithub/> </a>
+        </div>
+    </Card>
+    <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2013} alt="Rapid React" />
+        </div>
+        <h3>Rapid React</h3>
+        <h4>2012-13</h4>
+    </Card>
+    <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2012} alt="Rapid React" />
+        </div>
+        <h3>Rebound Rumble</h3>
+        <h4>2011-12</h4>
+    </Card>
+    <Card className="robot">
+        <div className="robot__img">
+            <img src={Robot2011} alt="Rapid React" />
+        </div>
+        <h3>Logomotion</h3>
+        <h4>2010-11</h4>
+    </Card>
       </div>
     </section>
     <Footer/>

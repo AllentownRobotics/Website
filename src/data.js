@@ -230,14 +230,14 @@ const Robot2021 = require('./images/robots/robot21.jpg')
 export const robots = [
     {
         id: 1,
-        image: Robot2021,
+        image: Robot2020,
         game: 'Rapid React',
         year: '2021-22',
         docs: ['https://github.com/AllentownRobotics/2022-1807-RobotCode']
     },
     {
         id: 2,
-        image: Robot2020,
+        image: Robot2021,
         game: 'Infinite Recharge',
         year: '2020-21',
         docs: ['https://github.com/AllentownRobotics']
