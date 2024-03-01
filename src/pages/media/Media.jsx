@@ -1,14 +1,14 @@
 import Header from '../../components/Header'
-import HeaderImage from '../../images/teampicture.jpg'
+import HeaderImage from '../../images/teampicture2.jpg'
 
 import './media.css'
 
 const Media = () => {
-    const galleryLength = 5;
+    const galleryLength = 6;
     const images = []
 
     for(let i = 1; i <= galleryLength; i++) {
-        images.push(require(`../../images/media/${i}.png`))
+        images.push(require(`../../images/media/${i}.jpg`))
     }
 
     return (

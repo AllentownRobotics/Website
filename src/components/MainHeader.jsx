@@ -10,7 +10,7 @@ const MainHeader = () => {
               <span>
                 Allentown <br/>
                 Redbird <br/>
-                Blackbird <br/>
+                FIRST <br/>
               </span>
             </div>
           </div>
@@ -18,8 +18,8 @@ const MainHeader = () => {
           <p>
           Empowering students to apply engineering, leadership, and design skills in the FIRST Robotics Competition
           </p>
-          <Link to="/about" className='btn lg'>1807</Link>
-          <Link to="/blackbird" className='btn lg'>1812</Link>
+          <Link to="/about" className='btn lg'>About</Link>
+          <Link to="/event" className='btn lg'>Event</Link>
         </div>
       </div>
     </header>

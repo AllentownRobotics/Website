@@ -3,22 +3,12 @@
     overflow: hidden;
     height:55vh;
     width:55vh;
-    transform: skew(15deg);
     background: var(--color-grey);
-    transition: var(--transition);
-    margin-left:15vh;
+    margin-left: 15vh;
 }
 
 .event__section-image img {
     height: 70vh;
-}
-
-.event__section-image:nth-child(2) {
-    transform: skew(-15deg);
-}
-
-.event__section-image:hover {
-    transform: skew(0);
 }
 
 .event__section-content h1 {
@@ -30,6 +20,7 @@
 .event__section-content p {
     margin-bottom: 1rem;
     color: var(--color-grey);
+    line-height:5vh;
 }
 
 .event__section-content h3 {
@@ -51,11 +42,20 @@
     gap: 10%;
 }
 
+.event__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    font-style: italic;
+}
+
 /*  Media Queries */
 
 @media screen and (max-width: 1024px) {
     .event__section-image {
         width: 60%;
+        display: none;
     }
 
     .event__section-content h1 {

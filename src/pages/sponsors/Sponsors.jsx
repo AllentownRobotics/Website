@@ -5,7 +5,7 @@ import Footer from '../../components/Footer'
 import './sponsors.css'
 
 const Media = () => {
-    const sponsorGalleryLength = 8;
+    const sponsorGalleryLength = 9;
     const sponsors = []
 
     for(let i = 1; i <= sponsorGalleryLength; i++) {
