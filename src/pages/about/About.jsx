@@ -1,8 +1,9 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import StoryImage from '../../images/about/circle2.JPG'
-import VisionImage from '../../images/circle1.jpg'
-import MissionImage from '../../images/about/circle3.jpg'
+import MissionImage from '../../images/about/circle3.JPG'
+import SumImage from '../../images/about/SummaryImage.JPG'
+
 import Footer from '../../components/Footer'
 
 import './about.css'
@@ -21,7 +22,7 @@ const About = () => {
             <p>Along with the increase of sponsors, our team has also greatly increased outreach efforts. Some of our outreach projects include leading multiple FIRST LEGO League teams, helping Girl Scout Troops earn their Programming Badge, annual robot demonstrations at our local elementary school’s STEM nights and local middle schools, installing a new LEGO Wall at our local elementary school. Our team is currently working on organizing more outreach programs in order to expose more young students to STEM. Our goal is to inform more people about the importance of STEM in education and the impact that FIRST has had on students all over the world.</p>
           </div>
           <div className="about__section-image" id="1">
-            <img src={VisionImage} alt="Summary" />
+            <img src={SumImage} alt="Summary" />
           </div>
         </div>
       </section>
