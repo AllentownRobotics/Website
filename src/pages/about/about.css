@@ -2,21 +2,15 @@
     border-radius: 50%;
     overflow: hidden;
     height:60vh;
-    transform: skew(15deg);
     background: var(--color-grey);
-    transition: var(--transition);
 }
 
 .about__section-image img {
-    height: 70vh;
+    height: 80vh;
 }
 
-.about__section-image:nth-child(2) {
-    transform: skew(-15deg);
-}
-
-.about__section-image:hover {
-    transform: skew(0);
+.about__section-image#1 {
+    margin-top:20rem;
 }
 
 .about__section-content h1 {
@@ -27,6 +21,7 @@
 .about__section-content p {
     margin-bottom: 1rem;
     color: var(--color-grey);
+    line-height: 2rem;
 }
 
 .about__story-container, .about__team-container {
