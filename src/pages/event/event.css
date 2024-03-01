@@ -42,6 +42,14 @@
     gap: 10%;
 }
 
+.event__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    font-style: italic;
+}
+
 /*  Media Queries */
 
 @media screen and (max-width: 1024px) {

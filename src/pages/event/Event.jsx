@@ -71,20 +71,20 @@ const Event = () => {
     <section className="pagesdirect">
         <div className="container pagesdirect">
           <SectionHead icon={<FaRobot/>} title="EVENT INFORMATION"/>
-        <div className="pages__wrapper">
+        <div className="event__wrapper">
            <Card className="pages__page" key="1">
                   <span><FaRobot/></span>
                   <h4>Schedule</h4>
                   <small>Check out the schedule for all competition days</small>
                   <a href="https://www.firstinspires.org/sites/default/files/uploads/frc/2024-events/2024_NJALL_Agenda.pdf" target="_blank" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
                 </Card>
-                <Card className="pages__page" key="1">
+                {/* <Card className="pages__page" key="1">
                   <span><FaRobot/></span>
                   <h4>Volunteer</h4>
                   <small>Sign up to volunteer for our District Event</small>
                   <a href="https://www.canva.com/design/DAF8DOWR5kI/lUihT8B-X330oW9JmaKxkA/view?utm_content=DAF8DOWR5kI&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noreferrer noopener" className="btn sm">View<AiFillCaretRight/></a>
-                </Card>
-                <Card className="pages__page" key="1">
+                </Card> */}
+                <Card className="pages__page" key="2">
                   <span><FaRobot/></span>
                   <h4>Information Packet</h4>
                   <small>Click to read more information about our event</small>
