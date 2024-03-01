@@ -1,7 +1,7 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import StoryImage from '../../images/about/circle2.JPG'
-import VisionImage from '../../images/about/circle1.jpg'
+import VisionImage from '../../images/circle1.jpg'
 import MissionImage from '../../images/about/circle3.jpg'
 import Footer from '../../components/Footer'
 
