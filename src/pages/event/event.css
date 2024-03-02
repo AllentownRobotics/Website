@@ -62,7 +62,7 @@
         margin-bottom: 1.2rem;
     }
 
-    .event__teams-container, .event__vision-container {
+    .event__teams-container, .pages__page {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
@@ -77,12 +77,14 @@
         overflow: hidden;
     }
     .event__section-image {
-        width: 80%;
-        margin-inline: auto;
         display:none;
     }
 
     .event__teams-container, .event__vision-container {
         gap: 2rem;
+    }
+
+    .event__wrapper {
+        grid-template-columns: 1fr;
     }
 }
