@@ -1,7 +1,6 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/teampicture.jpg'
 import StoryImage from '../../images/about/circle2.JPG'
-import MissionImage from '../../images/about/circle3.JPG'
 import SumImage from '../../images/about/SummaryImage.JPG'
 
 import Footer from '../../components/Footer'
@@ -46,7 +45,7 @@ const About = () => {
           <p>Our mission is to inspire students with a passion for exploring STEAM and other aspects of <i>FIRST</i> by encouraging them to be innovative thinkers. Our team aspires to instill the confidence, leadership, and communication skills in our members, essential for success in <i>FIRST</i> and in their future careers. We accomplish this all while following our motto: Simple. Robust. Reliable. </p>
         </div>
         <div className="about__section-image">
-          <img src={MissionImage} alt="Vision" />
+          <img src={SumImage} alt="Vision" />
         </div>
       </div>
     </section>
